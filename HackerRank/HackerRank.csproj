@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60ABFAA5-0D5C-44FC-8963-445260C9EFA1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HackerRank</RootNamespace>
+    <AssemblyName>HackerRank</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solutions\AngryProfessor.cs" />
+    <Compile Include="Solutions\AppendAndDelete.cs" />
+    <Compile Include="Solutions\AppleAndOrange.cs" />
+    <Compile Include="Solutions\Arrays - DS.cs" />
+    <Compile Include="Solutions\AVeryBigSum.cs" />
+    <Compile Include="Solutions\BeautifulDaysAtTheMovies.cs" />
+    <Compile Include="Solutions\BeautifulTriplets.cs" />
+    <Compile Include="Solutions\BirthdayCakeCandles.cs" />
+    <Compile Include="Solutions\BirthdayChocolate.cs" />
+    <Compile Include="Solutions\BonAppetit.cs" />
+    <Compile Include="Solutions\BreakingTheRecords.cs" />
+    <Compile Include="Solutions\CamelCase.cs" />
+    <Compile Include="Solutions\CatsAndAMouse.cs" />
+    <Compile Include="Solutions\CatsAndMouse.cs" />
+    <Compile Include="Solutions\CompareTheTriplets.cs" />
+    <Compile Include="Solutions\CountingValleys.cs" />
+    <Compile Include="Solutions\CutTheSticks.cs" />
+    <Compile Include="Solutions\DayOfTheProgrammer.cs" />
+    <Compile Include="Solutions\DesignerPDFViewer.cs" />
+    <Compile Include="Solutions\DiagonalDifference.cs" />
+    <Compile Include="Solutions\DivisibleSumPairs.cs" />
+    <Compile Include="Solutions\DrawingBook.cs" />
+    <Compile Include="Solutions\ElectronicsShop.cs" />
+    <Compile Include="Solutions\EqualizeTheArray.cs" />
+    <Compile Include="Solutions\ExtraLongFactorials.cs" />
+    <Compile Include="Solutions\FindDigits.cs" />
+    <Compile Include="Solutions\GradingStudents.cs" />
+    <Compile Include="Solutions\HalloweenSale.cs" />
+    <Compile Include="Solutions\IntroToTutorialChallenges.cs" />
+    <Compile Include="Solutions\JumpingOnTheClouds.cs" />
+    <Compile Include="Solutions\Kangaroo.cs" />
+    <Compile Include="Solutions\LibraryFine.cs" />
+    <Compile Include="Solutions\InversionOfArray.cs" />
+    <Compile Include="Solutions\MigratoryBirds.cs" />
+    <Compile Include="Solutions\MiniMaxSum.cs" />
+    <Compile Include="Solutions\MinimumDistances.cs" />
+    <Compile Include="Solutions\MissingNumberInArray.cs" />
+    <Compile Include="Solutions\PickingNumbers.cs" />
+    <Compile Include="Solutions\PlusMinus.cs" />
+    <Compile Include="Solutions\RepeatedString.cs" />
+    <Compile Include="Solutions\SherlockAndSquares.cs" />
+    <Compile Include="Solutions\SimpleArraySum.cs" />
+    <Compile Include="Solutions\SockMerchant.cs" />
+    <Compile Include="Solutions\Staircase.cs" />
+    <Compile Include="Solutions\SubArrayWithGivenSum.cs" />
+    <Compile Include="Solutions\SuperReducedString.cs" />
+    <Compile Include="Solutions\TaumAndBday.cs" />
+    <Compile Include="Solutions\TheHurdleRace.cs" />
+    <Compile Include="Solutions\TimeConversion.cs" />
+    <Compile Include="Solutions\UtopianTree.cs" />
+    <Compile Include="Solutions\ViralAdvertising.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
