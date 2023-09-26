@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace HackerRank.Solutions
 {
@@ -28,22 +27,7 @@ namespace HackerRank.Solutions
                 this.head = null;
             }
 
-        }
-
-        static void PrintSinglyLinkedList(SinglyLinkedListNode node, string sep, TextWriter textWriter)
-        {
-            while (node != null)
-            {
-                textWriter.Write(node.data);
-
-                node = node.next;
-
-                if (node != null)
-                {
-                    textWriter.Write(sep);
-                }
-            }
-        }
+        }        
 
         internal void TakeInput()
         {
