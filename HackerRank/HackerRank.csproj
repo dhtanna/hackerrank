@@ -74,6 +74,7 @@
     <Compile Include="Solutions\FindDigits.cs" />
     <Compile Include="Solutions\GradingStudents.cs" />
     <Compile Include="Solutions\HalloweenSale.cs" />
+    <Compile Include="Solutions\InsertNodeAtTail.cs" />
     <Compile Include="Solutions\IntroToTutorialChallenges.cs" />
     <Compile Include="Solutions\JumpingOnTheClouds.cs" />
     <Compile Include="Solutions\Kangaroo.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Solutions\MissingNumberInArray.cs" />
     <Compile Include="Solutions\PickingNumbers.cs" />
     <Compile Include="Solutions\PlusMinus.cs" />
+    <Compile Include="Solutions\PrintLinkedList.cs" />
     <Compile Include="Solutions\RepeatedString.cs" />
     <Compile Include="Solutions\SherlockAndSquares.cs" />
     <Compile Include="Solutions\SimpleArraySum.cs" />
