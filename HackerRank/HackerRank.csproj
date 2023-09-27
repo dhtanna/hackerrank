@@ -60,6 +60,7 @@
     <Compile Include="Solutions\CamelCase.cs" />
     <Compile Include="Solutions\CatsAndAMouse.cs" />
     <Compile Include="Solutions\CatsAndMouse.cs" />
+    <Compile Include="Solutions\ChocolateFeast.cs" />
     <Compile Include="Solutions\CompareTheTriplets.cs" />
     <Compile Include="Solutions\CountingValleys.cs" />
     <Compile Include="Solutions\CutTheSticks.cs" />
