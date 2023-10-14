@@ -75,10 +75,12 @@
     <Compile Include="Solutions\FindDigits.cs" />
     <Compile Include="Solutions\GradingStudents.cs" />
     <Compile Include="Solutions\HalloweenSale.cs" />
+    <Compile Include="Solutions\InsertNodeAtHead.cs" />
     <Compile Include="Solutions\InsertNodeAtTail.cs" />
     <Compile Include="Solutions\IntroToTutorialChallenges.cs" />
     <Compile Include="Solutions\JumpingOnTheClouds.cs" />
     <Compile Include="Solutions\Kangaroo.cs" />
+    <Compile Include="Solutions\LeftRotation.cs" />
     <Compile Include="Solutions\LibraryFine.cs" />
     <Compile Include="Solutions\InversionOfArray.cs" />
     <Compile Include="Solutions\MigratoryBirds.cs" />

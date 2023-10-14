@@ -6,7 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            new ChocolateFeast().TakeInput();
+            new LeftRotation().TakeInput();
         }
     }
 }
