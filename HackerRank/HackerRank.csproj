@@ -65,6 +65,7 @@
     <Compile Include="Solutions\CountingValleys.cs" />
     <Compile Include="Solutions\CutTheSticks.cs" />
     <Compile Include="Solutions\DayOfTheProgrammer.cs" />
+    <Compile Include="Solutions\DeleteANode.cs" />
     <Compile Include="Solutions\DesignerPDFViewer.cs" />
     <Compile Include="Solutions\DiagonalDifference.cs" />
     <Compile Include="Solutions\DivisibleSumPairs.cs" />

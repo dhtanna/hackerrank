@@ -6,7 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            new InsertNodeAtHead().TakeInput();
+            new DeleteANode().TakeInput();
         }
     }
 }
