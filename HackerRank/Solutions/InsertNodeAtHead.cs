@@ -7,6 +7,8 @@ namespace HackerRank.Solutions
 
         // https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?isFullScreen=true
 
+        // this soultion is working fine in local but it is giving error on platform while compiling.
+
         internal void TakeInput()
         {
             SinglyLinkedList llist = new SinglyLinkedList();
@@ -21,10 +23,12 @@ namespace HackerRank.Solutions
             }
 
             PrintSinglyLinkedList(llist.head);
+            Console.ReadKey();
         }
 
         static void PrintSinglyLinkedList(SinglyLinkedListNode node)
         {
+            Console.WriteLine("---------------Your output goes below--------------------");
             while (node != null)
             {
                 Console.WriteLine(node.data);
@@ -35,10 +39,35 @@ namespace HackerRank.Solutions
 
         SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data)
         {
-            SinglyLinkedListNode result = null;
+            
+            if (llist == null)
+            {
+                llist = new SinglyLinkedListNode(data);
+            }
+            else
+            {
+                SinglyLinkedListNode current = GetNewLList(llist);
+                llist.data = data;
+                llist.next = current;
+                
+            }
+
+            return llist;
+
+        }
+
+        private SinglyLinkedListNode GetNewLList(SinglyLinkedListNode llist)
+        {
+            if (llist == null) 
+            {
+                return null;
+            }
+
+            var result = new SinglyLinkedListNode(llist.data);
+            result.next = GetNewLList(llist.next);
 
             return result;
-
+            
         }
     }
 
