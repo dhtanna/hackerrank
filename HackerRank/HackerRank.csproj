@@ -49,6 +49,7 @@
     <Compile Include="Solutions\AngryProfessor.cs" />
     <Compile Include="Solutions\AppendAndDelete.cs" />
     <Compile Include="Solutions\AppleAndOrange.cs" />
+    <Compile Include="Solutions\ArrayFromPermutation.cs" />
     <Compile Include="Solutions\Arrays - DS.cs" />
     <Compile Include="Solutions\AVeryBigSum.cs" />
     <Compile Include="Solutions\BeautifulDaysAtTheMovies.cs" />
