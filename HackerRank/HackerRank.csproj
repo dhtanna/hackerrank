@@ -54,6 +54,7 @@
     <Compile Include="Solutions\AVeryBigSum.cs" />
     <Compile Include="Solutions\BeautifulDaysAtTheMovies.cs" />
     <Compile Include="Solutions\BeautifulTriplets.cs" />
+    <Compile Include="Solutions\BinaryTreeFindMax.cs" />
     <Compile Include="Solutions\BirthdayCakeCandles.cs" />
     <Compile Include="Solutions\BirthdayChocolate.cs" />
     <Compile Include="Solutions\BonAppetit.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Solutions\TaumAndBday.cs" />
     <Compile Include="Solutions\TheHurdleRace.cs" />
     <Compile Include="Solutions\TimeConversion.cs" />
+    <Compile Include="Solutions\TowerOfHanoi.cs" />
     <Compile Include="Solutions\UtopianTree.cs" />
     <Compile Include="Solutions\ViralAdvertising.cs" />
   </ItemGroup>

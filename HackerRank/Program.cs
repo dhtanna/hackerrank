@@ -6,7 +6,7 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            new ArrayFromPermutation().TakeInput();
+            new BinaryTreeFindMax().Execute();
         }
     }
 }
