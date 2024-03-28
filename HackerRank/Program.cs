@@ -1,4 +1,7 @@
-﻿using HackerRank.Solutions;
+﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
+using HackerRank.Solutions;
+using System;
 
 namespace HackerRank
 {
@@ -6,7 +9,31 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            new BinaryTreeFindMax().Execute();
+            //BenchmarkRunner.Run<BenchMarkLookUp>();
+            //Console.ReadLine();
+
+            new ValidParentheses().Execute();
+            Console.ReadKey();
+        }
+    }
+
+    [MemoryDiagnoser]
+    [Orderer(BenchmarkDotNet.Order.SummaryOrderPolicy.FastestToSlowest)]
+    [RankColumn]
+    public class BenchMarkLookUp
+    {
+        PrintDependencies PrintDependencies = new PrintDependencies();
+
+        [Benchmark]
+        public void RunWithoutRemovingCurrentRecord()
+        {
+            PrintDependencies.ExecuteWithoutRemovingCurrentRecord();
+        }
+
+        [Benchmark]
+        public void RunWithRemovingCurrentRecord()
+        {
+            PrintDependencies.ExecuteWithRemovingCurrentRecord();
         }
     }
 }
