@@ -12,7 +12,7 @@ namespace HackerRank
             //BenchmarkRunner.Run<BenchMarkLookUp>();
             //Console.ReadLine();
 
-            new ValidParentheses().Execute();
+            new SwapNodesInPair().Execute();
             Console.ReadKey();
         }
     }

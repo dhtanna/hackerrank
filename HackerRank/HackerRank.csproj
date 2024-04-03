@@ -225,6 +225,7 @@
     <Compile Include="Solutions\Staircase.cs" />
     <Compile Include="Solutions\SubArrayWithGivenSum.cs" />
     <Compile Include="Solutions\SuperReducedString.cs" />
+    <Compile Include="Solutions\SwapNodesInPair.cs" />
     <Compile Include="Solutions\TaumAndBday.cs" />
     <Compile Include="Solutions\TheHurdleRace.cs" />
     <Compile Include="Solutions\TimeConversion.cs" />
