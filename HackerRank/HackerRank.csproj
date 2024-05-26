@@ -224,6 +224,7 @@
     <Compile Include="Solutions\SockMerchant.cs" />
     <Compile Include="Solutions\Staircase.cs" />
     <Compile Include="Solutions\SubArrayWithGivenSum.cs" />
+    <Compile Include="Solutions\SumOfSeries.cs" />
     <Compile Include="Solutions\SuperReducedString.cs" />
     <Compile Include="Solutions\SwapNodesInPair.cs" />
     <Compile Include="Solutions\TaumAndBday.cs" />
@@ -231,6 +232,7 @@
     <Compile Include="Solutions\TimeConversion.cs" />
     <Compile Include="Solutions\TowerOfHanoi.cs" />
     <Compile Include="Solutions\UtopianTree.cs" />
+    <Compile Include="Solutions\ValueEqualToIndexValue.cs" />
     <Compile Include="Solutions\ValidParentheses.cs" />
     <Compile Include="Solutions\ViralAdvertising.cs" />
   </ItemGroup>
